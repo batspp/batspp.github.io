@@ -5,10 +5,10 @@ body {
 }
 
 p {
+  width: 60%;
+  margin: 0 auto;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6; /*Adjust spacing between lines */
   text-align: justify; /*Align paragraphs on both lines*/
-  text-indent: 30px
-  margin: 15px 0;
 }  
