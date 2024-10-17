@@ -9,5 +9,6 @@ p {
   font-size: 16px;
   line-height: 1.6; /*Adjust spacing between lines */
   text-align: justify; /*Align paragraphs on both lines*/
+  text-indent: 30px
   margin: 15px 0;
 }  
