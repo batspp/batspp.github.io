@@ -5,7 +5,6 @@ body {
 }
 
 .narrative {
-  text-indent: 30px;
   max-width: 800px;
   margin: 0 auto;
   padding: 10px;
@@ -16,6 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.6; /*Adjust spacing between lines */
   text-align: justify; /*Align paragraphs on both lines*/
+  text-indent: 30px;
   margin-bottom: 15px;
 }  
 
