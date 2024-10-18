@@ -43,6 +43,8 @@
       The original binary was disassembled, analyzed, and converted into a C++ console application. 
       For the legacy application, a user had to log in using a username and password to validate credentials and gain access permission to some investment data. 
       This artifact was created on 23 August 2024 to demonstrate my ability to reverse engineer legacy applications into a modern coding language.</p>
+      <img src="original_images/original_app.png"
+        alt="The C++ application initial entry and appearance">
     
       <p>  I chose to use this artifact because I discovered a lot of security vulnerabilities while analyzing the assembly code of the binary file. 
       Securing these vulnerabilities for the C++ conversion added complexity to the original application and increased time complexity to be a trade-off since user input had to be validated (to prevent possible exploits). 
@@ -58,7 +60,7 @@
       Including technical information describing each function with docstrings allows other developers to understand and enhance the existing code
        in the future without having to directly interface with the originator.</p>
     
-    <p>  While working through this enhancement process I learned a few tools and concepts. While porting to Python and using existing libraries, I learned about Python's “help()” function. 
+      <p>  While working through this enhancement process I learned a few tools and concepts. While porting to Python and using existing libraries, I learned about Python's “help()” function. 
       Although unfamiliar with Tkinter (a C-based Python library), I was able to use the help function within a Pycharm terminal to find resources and functions to use during development. 
       I also learned more about standard Python practices, such as namespace checking and utilizing “__init__.py” files to limit access to the custom package code. The biggest challenge I faced was using a 
       new tool in a way that wasn’t explicitly documented within that library’s resource documentation. My personal goal with this project is to maintain simplicity for both technical and non-technical aspects of the application, 
@@ -66,5 +68,10 @@
     </div>
 
     <h3>Enhancement #3: </h3>
+    <div class="narrative">
+      <p>  The artifact I have yet again chosen is the reverse-engineered investment application. This binary was then converted into a C++ console application that was designed based on the inferences 
+        of the assembly code of the binary executable. It would simply verify user access permissions, and display information. 
+        The artifact was created on August 23rd, 2024, and in only two months I was able to enhance it into a fully functional login window which included initially porting the application into Python.</p>
+    </div>
   </body>
 </html>
