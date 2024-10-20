@@ -26,3 +26,13 @@ body {
   height: auto;
   border-radius: 10px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
