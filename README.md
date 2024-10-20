@@ -1,2 +1,2 @@
 # batspp.github.io
-Enhancement Project
+Enhancement Project Github Pages repository.
