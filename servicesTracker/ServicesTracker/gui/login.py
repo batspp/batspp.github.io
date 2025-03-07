@@ -18,8 +18,8 @@ Dependencies:
 - ServicesTracker.auth.hash
 """
 import tkinter as tk
-from ServicesTracker.db.databases import create_user, get_password
-from ServicesTracker.auth.hash import hash_password, verify_password
+from db.databases import create_user, get_password
+from auth.hash import hash_password, verify_password
 from tkinter import messagebox
 
 
@@ -29,10 +29,10 @@ class LoginScreen:
     Factory pattern login window. This class will automatically build once the run_login() function
     is called.
     """
-    def __init__(self, window):
+    def __init__(self, window, title):
         # Login window, orientation, and design.
         self.window = window
-        self.window.title("Outdoor Services")
+        self.window.title(title)
         self.window.geometry("500x500")
         # Allow the user to resize the window height only.
         self.window.resizable(False, True)
@@ -110,9 +110,8 @@ class LoginScreen:
             messagebox.showinfo("Creation Successful.", "Welcome")
 
 
-
 def run_login():
     """This function runs the class instance of the login window."""
     screen = tk.Tk()
-    app = LoginScreen(screen)
+    app = LoginScreen(screen, "Cooke Street Outdoor Services")
     screen.mainloop()
